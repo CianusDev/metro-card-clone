@@ -11,7 +11,8 @@ export function Header() {
         { name: "Faq", href: "/#faq" },
     ]
   return (
-    <header className='w-full z-50 sticky bg-background/50 top-0 flex p-4 items-center justify-between h-20 backdrop-blur '>
+    <header className='w-full z-50 fixed bg-background/50 top-0 flex p-4 items-center justify-center h-20 backdrop-blur '>
+        <div className="max-w-6xl w-full items-center justify-between flex">
         <div className='flex items-center gap-6'>
             <Link href={"/"} className='flex items-center gap-2'>
                 <div className="size-10 flex-shrink-0 flex justify-center items-center rounded-2xl text bg-primary text-background font-bold">
@@ -34,6 +35,7 @@ export function Header() {
         className='rounded-xl flex md:hidden'>
             <GripIcon/>
         </Button>
+        </div>
     </header>
   )
 }

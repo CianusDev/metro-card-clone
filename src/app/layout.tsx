@@ -63,12 +63,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className="h-full">
       <body
-        className={`${lufga.className}  w-full h-full flex flex-col items-center antialiased`}
-      >
-        <main className="max-w-6xl w-full">
+        className={`${lufga.className}  w-full h-full flex flex-col items-center antialiased`}>
           <Header/>
           {children}
-        </main>
       </body>
     </html>
   );
