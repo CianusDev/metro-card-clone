@@ -31,7 +31,7 @@ export function Partners() {
     ]
   return (
     <section className='w-full flex my-24 flex-col h-52 items-center justify-center gap-8'>
-        <h1 className='font-bold text-2xl'>Trusted by the 200+ ambitious teams</h1>
+        <h1 className='font-bold text-2xl text-center'>Trusted by the 200+ ambitious teams</h1>
         <div className='flex items-center justify-around gap-4 flex-wrap w-full'>
             {partners.map((item) => (
                 <Image key={item.name} src={item.logo} className='flex-shrink-0' alt={item.name} width={100} height={100}/>

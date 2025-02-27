@@ -35,21 +35,21 @@ export  function Integrations() {
           </div>
 
           {/* First ring (outer) */}
-          <motion.div className="absolute inset-0 rounded-full border border-dashed" style={{ rotate: firstRingRotation }}>
+          <motion.div className="absolute inset-0 rounded-full border-2 border-dashed" style={{ rotate: firstRingRotation }}>
             {/* Outer ring logos */}
-            <div className="absolute left-1/2 -translate-x-1/2 -top-6 md:size-16 size-10 bg-[#4CAF50] rounded-full" />
-            <div className="absolute -right-6 top-1/2 -translate-y-1/2 md:size-16 size-10 bg-[#FF5722] rounded-full" />
-            <div className="absolute left-1/2 -translate-x-1/2 -bottom-6 md:size-16 size-10 bg-[#2196F3] rounded-full" />
-            <div className="absolute -left-6 top-1/2 -translate-y-1/2 md:size-16 size-10 bg-[#9C27B0] rounded-full" />
+            <img src="/assets/i6.webp" className="absolute left-1/2 -translate-x-1/2 -top-6 md:size-16 size-10 rounded-full" />
+            <img src="/assets/i7.webp" className="absolute -right-6 top-1/2 -translate-y-1/2 md:size-16 size-10 rounded-full" />
+            <img src="/assets/i8.webp" className="absolute left-1/2 -translate-x-1/2 -bottom-6 md:size-16 size-10 rounded-full" />
+            <img src="/assets/i9.webp" className="absolute -left-6 top-1/2 -translate-y-1/2 md:size-16 size-10 rounded-full" />
           </motion.div>
 
           {/* Second ring (inner) */}
-          <motion.div className="absolute md:inset-[80px] inset-14 rounded-full border" style={{ rotate: secondRingRotation }}>
+          <motion.div className="absolute md:inset-[80px] inset-14 rounded-full border-2 border-dashed" style={{ rotate: secondRingRotation }}>
             {/* Inner ring logos */}
-            <div className="absolute left-1/2 -translate-x-1/2 -top-4 md:size-12 size-8 bg-[#FFC107] rounded-full" />
-            <div className="absolute -right-4 top-1/2 -translate-y-1/2 md:size-12 size-8 bg-[#E91E63] rounded-full" />
-            <div className="absolute left-1/2 -translate-x-1/2 -bottom-4 md:size-12 size-8 bg-[#00BCD4] rounded-full" />
-            <div className="absolute -left-4 top-1/2 -translate-y-1/2 md:size-12 size-8 bg-[#795548] rounded-full" />
+            <img src="/assets/i1.webp" alt="all" className="absolute left-1/2 -translate-x-1/2 -top-4 md:size-12 size-8  rounded-full" />
+            <img src="/assets/i2.webp" className="absolute -right-4 top-1/2 -translate-y-1/2 md:size-12 size-8  rounded-full" />
+            <img src="/assets/i3.webp" className="absolute left-1/2 -translate-x-1/2 -bottom-4 md:size-12 size-8  rounded-full" />
+            <img src="/assets/i4.webp" className="absolute -left-4 top-1/2 -translate-y-1/2 md:size-12 size-8 rounded-full" />
           </motion.div>
         </div>
     </div>
