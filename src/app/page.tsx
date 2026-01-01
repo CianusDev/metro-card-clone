@@ -1,18 +1,16 @@
-import React from "react";
-import { Hero } from "./_components/hero";
-import { Partners } from "./_components/partners";
-import BentoGrid from "./_components/bento-grid";
-import Presentation from "./_components/presentation";
-import Features from "./_components/features";
 import { AnimatedWapper } from "./_components/animated-wapper";
-import { Integrations } from "./_components/integrations";
-import { Statistics } from "./_components/statistics";
-import Feedback from "./_components/feedback";
-import { Pricing } from "./_components/pricing";
-import FAQ from "./_components/faq";
+import BentoGrid from "./_components/bento-grid";
 import { DownloadApp } from "./_components/download-app";
+import FAQ from "./_components/faq";
+import Features from "./_components/features";
+import Feedback from "./_components/feedback";
 import { Footer } from "./_components/footer";
-import { SmoothScroll } from "./_components/smooth-scroll";
+import { Hero } from "./_components/hero";
+import { Integrations } from "./_components/integrations";
+import { Partners } from "./_components/partners";
+import Presentation from "./_components/presentation";
+import { Pricing } from "./_components/pricing";
+import { Statistics } from "./_components/statistics";
 
 export default function Home() {
   return (
